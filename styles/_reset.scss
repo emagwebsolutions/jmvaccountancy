@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+img,
+section,
+footer,
+nav{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    line-height: 1.5rem;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+input{
+    font-family: inherit;
+}

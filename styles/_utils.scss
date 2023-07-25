@@ -1,0 +1,85 @@
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    --bg-light-blue: 193,40%,90%;
+    --bg-med-blue: 228,50%,50%;
+    --bg-dark-blue: 228,50%,20%;
+    --bg-beige: 45,10%,93%;
+    --bg-white: hsl(0,0%,100%);
+    --text-white: hsl(0,0%,100%);
+    --text-dark: 0,10%,44%;
+}
+
+
+h1,
+h2,
+h3,
+h4
+{
+    font-family: 'Ultra', serif;
+}
+
+.flexbx{
+    display: flex;
+}
+
+.font-w-lg{
+    font-weight: 900;
+}
+.font-w-md{
+    font-weight: 700;
+}
+.font-size-lg{
+    font-size: min(5rem,4vw);
+    text-transform: uppercase;
+    color: hsl(var(--bg-dark-blue));
+}
+.font-size-md{
+    font-size: min(3rem,6vw);
+    line-height: 3rem;
+}
+.font-size-sm{
+    font-size: 1.6;
+}
+.para-text{
+    font-size: 1.6rem;
+    line-height: clamp(1rem, 2rem, 2.1rem);
+}
+p{
+    font-size: 1.6rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color: var(--text-white);
+}
+.text-dark{
+    color: hsl(var(--text-dark));
+}
+
+
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    padding: .6em;
+}
+
+li a{
+    padding: .5em;
+}
+
+
