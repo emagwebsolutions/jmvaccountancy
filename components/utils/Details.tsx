@@ -3,7 +3,7 @@ type detail = {
 };
 
 const Details = ({ obj }: detail) => {
-  const res = Object.values(obj).map((v, i) => {
+  const res = Object.values(obj).map((v: any, i) => {
     return (
       <li key={i}>
         <i className="fa fa-book"></i>&nbsp;&nbsp; {v}
